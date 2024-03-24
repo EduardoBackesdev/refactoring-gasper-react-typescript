@@ -6,13 +6,9 @@ export function Solidbutton(){
     return(
         <div>
 
-
-            <dialog>
-                <div>
-                    <h2>Pendulo</h2>
-                </div>
-            </dialog>
-        
+            <button className="">
+                <h2>ola</h2>
+            </button>
         
         </div>
         
