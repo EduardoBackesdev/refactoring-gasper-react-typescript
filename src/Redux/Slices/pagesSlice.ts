@@ -13,7 +13,6 @@ const initialState: pagesInter = {
 page: "main",
 }
 
-
 const pagesSlice = createSlice({
     name: "page",
     initialState,
