@@ -1,4 +1,9 @@
 .class{
-    background-color: black;
-    height: 1px;
+    color: black;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 20px;
+    width: 200px;
+    background-color:#e8311f;
+    color: white;
 }

@@ -1,24 +1,22 @@
-import { Id } from "@reduxjs/toolkit/dist/tsHelpers";
-import { text } from "stream/consumers";
 import './class.css';
+import { ComponentProps } from "react";
 
 
 // Isso significa as propriedades que eu quero que meu button tenha
-interface propriedadesButton{
+interface propriedadesButton extends ComponentProps<"button">{
     text: string;
-    onClick: Function;
     className?: string;
 }
 
 
 
-export function Solidbutton(props:propriedadesButton){
+export function Solidbutton({text,className}:propriedadesButton){
 
     return(
         <div>
 
-            <button className={"class" + props.className}>
-                <h2>{props.text}</h2>
+            <button className={"class " + className}>
+                <h2>{text}</h2>
             </button>
         
         </div>
