@@ -18,14 +18,13 @@ export function Main(){
                             <h2 className="t text-black">Teste</h2>
                             <Solidbutton className="mb-3" text="Video"></Solidbutton>
                             <Solidbutton text="Saiba Mais"></Solidbutton>
-                            <More className="text-black">
+                            {/* <More className="text-black">
                                 <div className="text-black">
                                     <h2 >Titulo</h2>
                                     <h2>Valor</h2>
                                     <h2>Descricao da atividade</h2>
                                 </div>
-                            </More>
-
+                            </More> */}
                         </div>
 
                         <div className="flex-col">
