@@ -7,7 +7,7 @@ export function Login (){
         <div className="main-login">   
             <div className='border-login'>
                 <div className='content-login'>
-                    <h2 className='text-3xl'>Bem vindo ao <strong>ViewerGasper</strong> </h2>
+                    <h2 className='text-3xl'>Bem vindo ao <strong>ViewerGasper</strong></h2>
                         <form className='formulario'>
                             <input className='rounded-lg h-11' type="text" placeholder='Login' />
                             <input className='rounded-lg h-11' type="password" placeholder='Senha'/>
